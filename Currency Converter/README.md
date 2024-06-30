@@ -1,76 +1,44 @@
 # <p align="center"> Entry Level: Currency Converter </p>
 
 <div align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:640/0*_6WEDnZubsQfTMlY.png" width="600" height="300">
+  <img src="https://www.sourcecodester.com/sites/default/files/images/rems/rtcc1.png" width="650" height="470">
 </div>
 
+## Python Currency Converter
 
-## 
-- Build a machine learning model to identify fraudulent credit card transactions.
+This is a Python program designed to convert currencies based on user input. 
 
-- Preprocess and normalize the transaction data, handle class imbalance issues, and split the dataset into training and testing sets.
+## What I have learned from this project
 
-- Train a classification algorithm, such as logistic regression or random forests, to classify transactions as fraudulent or genuine.
+* **Handling user input:** Gain experience using Python's `input` function to interact with the user and get information like the amount and currency codes.
+* **Basic mathematical operations:** The conversion process involves basic mathematical operations like division and multiplication. 
+* **Currency conversion logic:** Understand how to perform currency conversion considering exchange rates.
 
-- Evaluate the model's performance using metrics like precision, recall,and F1-score, and consider techniques like oversampling or undersampling for improving results.
+## Functionality
 
-- **DATASET:** Available on [Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud) 
+The program prompts the user to enter:
 
+* The amount of money they want to convert.
+* The currency code of the starting amount (e.g., USD, EUR).
+* The currency code they want to convert to (e.g., USD, EUR).
 
-- This project tackles the crucial task of 𝐢𝐝𝐞𝐧𝐭𝐢𝐟𝐲𝐢𝐧𝐠 𝐟𝐫𝐚𝐮𝐝𝐮𝐥𝐞𝐧𝐭 𝐭𝐫𝐚𝐧𝐬𝐚𝐜𝐭𝐢𝐨𝐧𝐬 in real-time, protecting consumers and financial institutions. 🌐🔬 
+**Note:** This is a basic implementation and uses a sample exchange rate dictionary. 
 
-- **Here's a glimpse into the process:**
+## Running the program
 
-𝟏. 𝐃𝐚𝐭𝐚 𝐏𝐫𝐞𝐩𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐚𝐧𝐝 𝐍𝐨𝐫𝐦𝐚𝐥𝐢𝐳𝐚𝐭𝐢𝐨𝐧:
+1. **Prerequisites:** Make sure you have Python installed on your system. You can download it from [https://www.python.org/downloads/](https://www.python.org/downloads/).
+2. **Download:** Clone or download this repository to your local machine.
+3. **Run:** Open a terminal or command prompt, navigate to the directory containing the program file (e.g., `main.py`), and execute it using the following command:
 
-• Leveraging libraries like pandas, NumPy, and scikit-learn, we cleaned and normalized the transaction data.
+```
+python main.py
+```
 
-• Missing values were addressed, and categorical features were encoded appropriately.
+4. **Follow the prompts:** The program will ask you to enter the amount, source currency code, and target currency code. Enter the values and press Enter after each input.
 
-• We ensured data was suitable for machine learning algorithms.
-
-𝟐. 𝐇𝐚𝐧𝐝𝐥𝐢𝐧𝐠 𝐂𝐥𝐚𝐬𝐬 𝐈𝐦𝐛𝐚𝐥𝐚𝐧𝐜𝐞:
-
-• Real-world fraud data is often imbalanced, with genuine transactions heavily outnumbering fraudulent ones.
-
-• Techniques like oversampling or undersampling were explored to address this challenge and improve model performance.
-
-𝟑. 𝐌𝐨𝐝𝐞𝐥 𝐓𝐫𝐚𝐢𝐧𝐢𝐧𝐠 𝐚𝐧𝐝 𝐄𝐯𝐚𝐥𝐮𝐚𝐭𝐢𝐨𝐧:
-
-• We trained classification algorithms, such as Logistic Regression or Random Forests, to classify transactions as fraudulent or legitimate.
-
-• Model performance was evaluated using metrics like precision, recall, and F1-score, ensuring a robust detection system.
-
-𝟒. 𝐍𝐞𝐱𝐭 𝐒𝐭𝐞𝐩𝐬:
-
-• Experimentation with different algorithms and hyperparameter tuning for further performance optimization.
-
-• Continuous monitoring and improvement to adapt to evolving fraud patterns.
-
-It was a fantastic learning experience exploring libraries and algorithms to build a model that can identify fraudulent transactions. ✨
-
-🚀 𝐃𝐮𝐫𝐢𝐧𝐠 𝐭𝐡𝐢𝐬 𝐩𝐫𝐨𝐣𝐞𝐜𝐭, 𝐈 𝐠𝐨𝐭 𝐡𝐚𝐧𝐝𝐬-𝐨𝐧 𝐰𝐢𝐭𝐡:
-
-𝐄𝐬𝐬𝐞𝐧𝐭𝐢𝐚𝐥 𝐋𝐢𝐛𝐫𝐚𝐫𝐢𝐞𝐬: Pandas, NumPy, and scikit-learn became my go-to tools for data manipulation, cleaning, and working with machine learning models.
-
-𝐌𝐨𝐝𝐞𝐥 𝐓𝐫𝐚𝐢𝐧𝐢𝐧𝐠 𝐚𝐧𝐝 𝐓𝐞𝐬𝐭𝐢𝐧𝐠: I learned how to train different classification algorithms, like logistic regression, to analyze transaction data and predict fraud. Testing the model's accuracy with metrics like precision, recall, and F1-score helped me gauge its effectiveness.
-
-This project not only provided valuable insights into fraud detection but also solidified my understanding of the machine learning workflow. It's exciting to see how these skills can be applied to solve real-world problems! ✨
-## Demo of the Project:
-
-- **Demo:** Available on [LinkedIn](https://www.linkedin.com/posts/khushi-rajput-254ba1263_machinelearning-frauddetection-creditcards-activity-7203853455927496704-kJxe?utm_source=share&utm_medium=member_desktop) 
-
-
+The program will then display the converted amount in the target currency.
 
 
 ## Tech Stack
 
-**Tool:** Colab
-
 **Language:** Python
-
-**Python Libraries:** numpy, matplotlib, pandas, seaborn
-
-**Machine Learning Model:** Logistic Regression, Random Forest Classifier, Decision Tree Classifier
-
-**Other:** Accuracy Score, f1 Score, Precision Score, Recall Score
